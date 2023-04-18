@@ -1,3 +1,18 @@
+/*
+This code defines two classes, Employee and Database, which are used to manage a database of employees. 
+The Employee class represents an individual employee, with a first name, last name, company name, and position. 
+The Database class stores a collection of Employee objects and provides methods to add, search, 
+update, and delete employees, as well as retrieve all employees, search by position, and search by company.
+The program then prompts the user to enter a choice from a menu, and performs the corresponding action based on the user's choice. The menu options are:
+Add employee - prompts the user to enter the details of a new employee and adds them to the database
+Search employee - prompts the user to enter a first and last name, and displays a list of matching employees
+Update employee position - prompts the user to enter the details of an existing employee and a new position, and updates the employee's position in the database
+Delete employee - prompts the user to enter the details of an existing employee, and removes the employee from the database
+View all employees - displays a list of all employees in the database
+Search employee by position - prompts the user to enter a position, and displays a list of all employees in that position
+Search by company - prompts the user to enter a company name, and displays a list of all employees in that company
+Exit - exits the program.
+*/
 #include <iostream>
 #include <string>
 #include <vector>
