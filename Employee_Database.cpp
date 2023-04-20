@@ -119,7 +119,7 @@ public:
 
 int main() {
     system("color 2");
-    cout << "\t\t\t\t\t\tThe game was developed by Oliver Nikolajevic" << endl;;
+    cout << "\t\t\t\t\t\tThe code was developed by Oliver Nikolajevic" << endl;;
     Database db;
 
     while (true) {
@@ -257,6 +257,6 @@ int main() {
         }
         }
     }
-    //The game was developed by Oliver Nikolajevic
+    //The code was developed by Oliver Nikolajevic
 }
 
